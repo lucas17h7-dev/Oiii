@@ -1,0 +1,19 @@
+{
+  "name": "cartoon-studio-2d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5173"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "gifenc": "^1.0.3",
+    "mp4-muxer": "^5.2.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.3"
+  }
+}
